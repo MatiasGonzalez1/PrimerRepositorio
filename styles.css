@@ -1,0 +1,28 @@
+body{ 
+    width:70%;
+    margin:0 auto;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace; /*tipo de letra o familia de la fuente*/
+    font-size: 3em; /*tamaño*/
+    text-align: center; /*alineacion*/
+}
+p{
+    line-height: 1.5em; /*interlineado*/
+    /*text-indent: 4em; sangria*/
+    padding: 0 1em; /*espacio entre margenes*/
+    text-align: justify;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color:brown
+}
+#contenido{
+    background-color: rgb(228, 228, 217);
+}
+/**********
+CLASS
+**********/
+span.subrayar{ text-decoration: underline;}
